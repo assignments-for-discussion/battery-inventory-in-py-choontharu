@@ -49,6 +49,7 @@ def test_bucketing_by_health():
   assert(additional_count["healthy"] == 1)
   assert(additional_count["exchange"] == 0)
   assert(additional_count["failed"] == 2)
+  #Once the testing is done it will display a message
   print("Done counting :)")
 
 
